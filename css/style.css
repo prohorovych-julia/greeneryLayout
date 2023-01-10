@@ -451,7 +451,7 @@ svg path {
 .main-slider__pagination {
   position: absolute;
   bottom: 6%;
-  left: 50%;
+  left: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,111 +527,6 @@ svg path {
   cursor: pointer;
 }
 
-/*===============*/
-
-/*
-.slider-main {
-
-
-
-    // .slider-main__slide
-    &__slide {
-        position: relative;
-        min-height: 100vh;
-    }
-
-    // .slider-main__image
-    &__image {
-        // text-align: center;
-
-        img {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            object-fit: cover;
-            object-position: 70%;
-            z-index: -1;
-        }
-    }
-
-    // .slider-main__container
-    &__container {
-        @include adaptiveValue("padding-top", 190, 80);
-        @include adaptiveValue("padding-left", 95, 30);
-        min-height: 100%;
-        // margin: 0 auto 0 0;
-    }
-
-    // .slider-main__content
-    &__content {
-        // display: flex;
-        // flex-direction: column;
-        // padding-bottom: 30px;
-    }
-}
-
-.main-slider {
-
-    // .main-slider__pagination
-    &__pagination {
-        position: absolute;
-        bottom: 6%;
-        left: 50%;
-
-        display: flex;
-        gap: rem(12);
-        justify-content: center;
-        align-items: center;
-    }
-}
-.pagination-bullets {
-    // .pagination-bullets__bullet
-    &__bullet {
-        width: rem(20);
-        height: rem(20);
-        border-radius: 50%;
-        background-color: transparent;
-        border: 0.0625rem solid #677f8b;
-        cursor: pointer;
-    }
-}
-
-
-
-.content-main {
-    @include adaptiveValue("max-width", 400,200);
-
-    // .content-main__subtitle
-    &__subtitle {
-        font-family: 'Dancing Script';
-        font-weight: 700;
-        @include adaptiveValue("font-size", 20,15);
-        line-height: 1.5;
-        letter-spacing: 0.045em;
-        color: $grayColor;
-        &:not(:last-child) {
-            margin-bottom: rem(9);
-        }
-    }
-
-    // .content-main__title
-    &__title {
-        font-family: 'Dosis';
-        font-weight: 600;
-        @include adaptiveValue("font-size", 50,18);
-        line-height: 1.3;
-        letter-spacing: 0.045em;
-        color: $darkGreenColor;
-
-        &:not(:last-child) {
-            margin-bottom: rem(18);
-        }
-    }
-
-}
-*/
 
 .swiper {
   overflow: hidden;
